@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+
+
 .mp {
   background: #ffffff;
   display: flex;
@@ -19,8 +21,13 @@
 .ul {
   flex: 1;
   height: 26px;
-  position: relative;
-  overflow: hidden;
+  /* position: relative; */
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  flex-wrap: wrap;
+  /* overflow: hidden; */
+
 }
 
 .our-story {
@@ -102,12 +109,9 @@
 }
 
 .svg9 {
-  width: 18px;
-  height: 20px;
-  position: absolute;
-  left: 632px;
+  
+  position: relative;
   top: 3px;
-  overflow: hidden;
 }
 
 .frame17 {
@@ -1133,6 +1137,17 @@ text-transform: uppercase;
   flex-shrink: 0;
   position: relative;
 }
+.menu-item{
+  color: #ffffff;
+  margin: 0px 20px;
+  text-align: left;
+  font: 400 17px/25.2px 'Inter', sans-serif;
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
 
 .prev-button {
   display: flex;
@@ -1273,7 +1288,7 @@ text-transform: uppercase;
   align-items: flex-start;
   justify-content: center;
   flex-shrink: 0;
-  width: 563.43px;
+  width: 100%;
   position: relative;
 }
 
@@ -1281,6 +1296,7 @@ text-transform: uppercase;
   display: flex;
   flex-direction: column;
   gap: 14px;
+  width: 100%;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -1471,9 +1487,11 @@ text-transform: uppercase;
 }
 
 .component-5 {
+  display: flex;
   flex-shrink: 0;
-  width: 403px;
-  height: 330px;
+  width: 100%;
+  height: 50px;
+  right: 0px;
   position: relative;
 }
 
@@ -1483,9 +1501,9 @@ text-transform: uppercase;
   border-radius: 50%;
   width: 291px;
   height: 291px;
-  position: absolute;
+  /* position: absolute;
   left: 1000px;
-  top: 39px;
+  top: 39px; */
 }
 
 .frame-13 {
@@ -1494,12 +1512,9 @@ text-transform: uppercase;
   flex-direction: row;
   gap: 18px;
   align-items: flex-start;
-  justify-content: flex-start;
-  width: 291px;
+  justify-content: end;
+  width: 100%;
   height: 16px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
 }
 
 .frame-10 {
@@ -2367,8 +2382,7 @@ text-transform: uppercase;
 
 .symbols {
   flex-shrink: 0;
-  width: 226.7px;
-  height: 164.24px;
+ 
   position: static;
 }
 
@@ -2456,6 +2470,7 @@ text-transform: uppercase;
   position: relative;
 }
 
+
 .frame-75 {
   display: flex;
   flex-direction: row;
@@ -2465,6 +2480,12 @@ text-transform: uppercase;
   justify-content: space-between;
   flex-shrink: 0;
   position: relative;
+}
+
+.main-content{
+display: flex!important;
+width: 100%!important;
+justify-content: space-between!important;
 }
 
 .email {
@@ -2969,14 +2990,16 @@ text-transform: uppercase;
   padding: 0px 40px 0px 40px;
   display: flex;
   flex-direction: row;
-  gap: 525px;
+  /* gap: 525px; */
+  flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-shrink: 0;
-  width: 1512px;
+  width: 100%;
   position: absolute;
   left: 0px;
   top: 13px;
+
 }
 
 .group11 {
@@ -3246,3 +3269,202 @@ text-transform: uppercase;
   position: absolute;
 }
 
+@media (min-width:320px) and (max-width:560px){
+.shape-12-1{
+  margin-top: -73%;
+}
+
+.ul{
+  flex-direction: column-reverse;
+  flex-wrap: initial;
+
+}
+
+.picture{
+  flex-direction: column;
+}
+.mask-group-23-jpg {
+  width: 50%;
+  height: auto;
+  margin: 8%;
+}
+
+.h-1-img-gallery-img-3-jpg {
+  margin: 8%;
+}
+
+.frame-26{
+  align-items: center;
+  justify-content: center;
+}
+
+.expertise2 {
+  text-align: center;
+}
+
+.fund-raising {
+  text-align: center;
+  font: 400 18.5px/48.6px 'Inter', sans-serif;
+}
+
+.executive-search{
+  font: 400 18.5px/48.6px 'Inter', sans-serif;
+}
+
+.leadership-consulting{
+  font: 400 18.5px/48.6px 'Inter', sans-serif;
+}
+
+.board-advisory{
+  font: 400 18.5px/48.6px 'Inter', sans-serif;
+}
+
+.building-teams-that-change-the-world-with-the-help-of-our-consultants2 {
+  font: 400 34px/61.48px 'Poppins', sans-serif;
+}
+
+
+.vulputate-mi-sit-amet-mauris-commodo-quis-imperdiet-metus-vulputate-eu-felis-imperdiet-proin-nulla-aliquet-enim2 {
+  font: 400 14px/27.92px 'Inter', sans-serif;
+  padding: 0 19%;
+}
+
+.frame-13{
+  padding: 40px 22px 0px 0px;
+}
+
+._100{
+  left: 116px;
+    top: 177px;
+}
+
+.risus-quis-varius-quam-quisque-id-diam-vel-quam-elementum-vulputate-mi-sit-amet-mauris-commodo-quis-imperdiet2 {
+  text-align: center;
+  
+  width: 37%;
+  height: 72.91px;
+  justify-content: center;
+}
+
+.stay-updated-with-our-latest-posts {
+  font: 400 20px/51.6px 'Poppins', sans-serif;
+}
+
+.blog-img-4-jpg {
+  height: 162.41px;
+  left: 89px;
+}
+
+.frame-62{
+  height: 162.41px;
+}
+
+.frame-59 {
+  width: 100px;
+  height: 21px;
+  left: 250px;
+  top: 142px;
+}
+
+.frame-61 {
+ 
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.there-is-nothing-new-with-your-old-posting {
+  text-align: center;
+  width: 316.26px;
+  height: 71.75px;
+}
+
+.risus-quis-varius-quam-quisque-id-diam-vel-quam-elementum-vulputate-mi-sit-amet-mauris-commodo-quis-imperdiet3 {
+ 
+  text-align: center;
+ 
+  width: 316px;
+  
+}
+
+.next-btn-1 {
+  margin-left: 38%;
+}
+.next-btn-12 {
+  margin-left: 38%;
+}
+.next-btn-13 {
+  margin-left: 38%;
+}
+.component-5{
+  /* display: none; */
+}
+
+.pr-5{
+  position: relative;
+  left:22%;
+}
+
+.frame-69 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  
+}
+
+.frame-79{
+  gap: 30px;
+}
+
+.great-science-deserves-great-people2 {
+ 
+  text-align: center;
+  font: 700 35px/49.7px 'Poppins', sans-serif;
+
+}
+
+.myVideo{
+  height: 635px;
+}
+
+.prev-buttons svg{
+width: 65%;
+}
+.next-button svg{
+width: 65%;
+}
+.frame-31{
+  margin-right: 0 !important;
+}
+
+.monitoring-information-with-the-utmost-accuracy {
+ 
+  font: 400 28px/43.92px 'Poppins', sans-serif;
+  
+  width: 60%;
+}
+
+.risus-quis-varius-quam-quisque-id-diam-vel-quam-elementum-vulputate-mi-sit-amet-mauris-commodo {
+ 
+  font: 400 16px/19px 'Poppins', sans-serif;
+ 
+  width: 62%;
+  height: 50px;
+}
+
+.frame-41 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 17%;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+}
